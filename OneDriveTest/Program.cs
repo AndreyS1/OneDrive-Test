@@ -13,17 +13,15 @@ namespace OneDriveTest
     {
         static async Task Main(string[] args)
         {
-            var filePath = @"C:\dev\freelance\AsimKhan\info.txt";
+            var filePath = @"C:\dev\Test\OneDriveTest\info.txt";
 
             var tenantId = "2ad79cff-1aaf-4d18-a4ed-f737ee436df5";
-            var instance = $"https://login.microsoftonline.com/{tenantId}";
-
-            var clientSecret = "Ft3bk6_G_Lrf-37.0TW0U.DePXU_aOpV-p";
             var clientId = "f9bb6263-090d-4213-aec1-d42239c69df4";
-
-
+            var clientSecret = "Ft3bk6_G_Lrf-37.0TW0U.DePXU_aOpV-p";
             var userId = "430f4ce8-18e2-426b-a018-0f61729000ea";
 
+            var instance = $"https://login.microsoftonline.com/{tenantId}";
+            
             Console.WriteLine("Start");
 
             try
